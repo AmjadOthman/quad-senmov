@@ -11,7 +11,10 @@ export default function RightImageCard({ title, desc, imgUrl }) {
         <h3 className="text-3xl font-bold text-gray-700 mb-3 ">{title}</h3>
         <p className="text-gray-700 text-xl">{desc}</p>
         <div className="mt-6 flex justify-center items-center">
-          <a className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer shadow-lg flex justify-center items-center">
+          <a
+            href="/services"
+            className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer  flex justify-center items-center"
+          >
             Learn more
           </a>
         </div>

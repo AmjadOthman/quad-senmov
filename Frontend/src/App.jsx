@@ -5,8 +5,8 @@ import AboutUs from "./Pages/AboutUs";
 import Services from "./Pages/Services";
 import ContactUs from "./Pages/ContactUs";
 import Login from "./Pages/Login";
-import RightImageCard from "./Components/RightImageCard";
-import LeftImageCard from "./Components/LeftImageCard";
+
+import ToggleElement from "./Components/ToggleElement";
 
 function App() {
   return (
@@ -17,8 +17,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/imagecard" element={<RightImageCard />} />
-        <Route path="/leftimagecard" element={<LeftImageCard />} />
+        <Route path="/toggleelement" element={<ToggleElement />} />
       </Routes>
     </BrowserRouter>
   );

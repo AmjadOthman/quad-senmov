@@ -1,12 +1,11 @@
 import React from "react";
-
+import Image from "../../src/assets/home_page.jpg";
 function CntctUsHeaderCard() {
   return (
     <header
       className="w-screen h-screen bg-slate-700 flex items-center justify-center bg-image-home-page-css"
       style={{
-        backgroundImage:
-          "url(https://e0.pxfuel.com/wallpapers/1001/63/desktop-wallpaper-company-company.jpg)",
+        backgroundImage: `url(${Image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
