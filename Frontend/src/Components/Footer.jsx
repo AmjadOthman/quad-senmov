@@ -6,7 +6,7 @@ function Footer() {
       <ul className="flex flex-col justify-center items-center lg:max-w-7xl mx-auto ">
         <span className="font-bold text-2xl p-3 ">Name</span>
         <li className="p-2 lg:max-w-7xl mx-auto">
-          6/129 Waldron Road - Chester Hill - NSW 2162 - Australia
+          42 Buckley Ave, Blacktown NSW 2148 Australia
         </li>
         <li className="flex p-2 gap-1 items-center justify-center">
           <svg
@@ -37,7 +37,7 @@ function Footer() {
             />
           </svg>
 
-          <span>: 0061 406 831 047</span>
+          <span>: +61 402 216 349</span>
         </li>
         <li className="p-2">
           by

@@ -1,8 +1,15 @@
 import React from "react";
 
-export default function ({ title, desc }) {
+export default function ({ title, desc, imgUrl }) {
   return (
-    <header className="w-screen h-screen bg-slate-700 flex items-center justify-center bg-image-home-page-css">
+    <header
+      className="w-screen h-screen bg-slate-700 flex items-center justify-center bg-image-home-page-css"
+      style={{
+        backgroundImage: `url(${imgUrl})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="flex w-3/4 flex-col items-center justify-center bg-slate-400/80 p-10 rounded-2xl m-5 mb-5">
         <div className="w-3/4 text-center ">
           <span className="text-2xl mb-2 font-bold text-white shadow-sm">

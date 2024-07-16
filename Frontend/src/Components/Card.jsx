@@ -2,9 +2,9 @@ import React from "react";
 
 function Card({ title, desc }) {
   return (
-    <div className="m-2 p-4 rounded overflow-hidden shadow-lg w-1/3 lg:w-auto">
+    <div className="m-2 p-4 rounded overflow-hidden shadow-lg w-5/6 lg:w-auto">
       <div className="px-6 py-4">
-        <span className="font-bold text-xl mb-2">{title}</span>
+        <span className="font-bold text-xl mb-2 text-gray-700">{title}</span>
         <p className="text-base text-gray-700">{desc}</p>
       </div>
       <div className="px-4 pt-4">
