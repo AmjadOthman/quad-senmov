@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="w-screen bg-gray-600/90 text-white ">
       <ul className="flex flex-col justify-center items-center lg:max-w-7xl mx-auto ">
-        <span className="font-bold text-2xl p-3 ">Name</span>
+        <span className="font-bold text-2xl p-3 ">Primerise Pty Ltd</span>
         <li className="p-2 lg:max-w-7xl mx-auto">
           42 Buckley Ave, Blacktown NSW 2148 Australia
         </li>
@@ -20,7 +20,7 @@ function Footer() {
             <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
           </svg>
 
-          <span>: info@senmov.com</span>
+          <span>: info@example.com</span>
         </li>
         <li className="flex p-2 gap-1 items-center justify-center">
           <svg

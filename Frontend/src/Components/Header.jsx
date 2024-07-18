@@ -30,14 +30,16 @@ function Header() {
       {/**small screen nav bar
        * responsive navbar
        */}
-      <div className="-z-10">
+      <div className="z-10">
         <div
           className={`fixed  bg-gray-600/90  ${
             hiddenNav ? "block" : "hidden"
-          } text-white  -z-10 rounded-2xl left-16 top-2`}
+          } text-white  mx-2 z-10 rounded-2xl left-16 top-2 lg:hidden lg:mx-2 fixed`}
         >
-          <nav className="app-navbar flex flex-col m-5 lg:hidden">
-            <div className="text-xl font-bold">Senmov Ltd Pty</div>
+          <nav className="app-navbar flex flex-col m-5 ">
+            <a className="text-xl font-bold" href="/">
+              Primerise Ltd Pty
+            </a>
             <ul className="flex flex-col gap-10 items-center justify-center">
               <li className="hover:text-[#2f3030] duration-200">
                 <Link
@@ -54,14 +56,14 @@ function Header() {
                 </Link>
               </li>
               <li className="hover:text-[#2f3030]">
-                <Link to="/services" className="px-3 py-2 cursor-pointer">
+                <a href="/services" className="px-3 py-2 cursor-pointer">
                   Services
-                </Link>
+                </a>
               </li>
               <li className="hover:text-[#2f3030]">
-                <Link to="/contactus" className="px-3 py-2 cursor-pointer">
+                <a href="/contactus" className="px-3 py-2 cursor-pointer">
                   Contact Us
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
@@ -72,32 +74,32 @@ function Header() {
       <div className="fixed w-screen bg-gray-600/90 lg:block hidden text-white">
         <nav className="lg:max-w-5xl xl:max-w-6xl mx-auto py-4 my-3 flex justify-between items-center app-navbar">
           <div className="text-xl font-bold">
-            <Link to="/">Senmov Ltd Pty</Link>
+            <a href="/">Primerise Ltd Pty</a>
           </div>
           <ul className="flex gap-10 items-center justify-between">
             <li className="hover:text-[#2f3030] duration-200">
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="px-3 py-2 cursor-pointer active"
                 aria-current="page"
               >
                 Home
-              </Link>
+              </a>
             </li>
             <li className="hover:text-[#2f3030] duration-200">
-              <Link to="/aboutus" className="px-3 py-2 cursor-pointer">
+              <a href="/aboutus" className="px-3 py-2 cursor-pointer">
                 About Us
-              </Link>
+              </a>
             </li>
             <li className="hover:text-[#2f3030] duration-200">
-              <Link to="/services" className="px-3 py-2 cursor-pointer">
+              <a href="/services" className="px-3 py-2 cursor-pointer">
                 Services
-              </Link>
+              </a>
             </li>
             <li className="hover:text-[#2f3030] duration-200">
-              <Link to="/contactus" className="px-3 py-2 cursor-pointer">
+              <a href="/contactus" className="px-3 py-2 cursor-pointer">
                 Contact Us
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>

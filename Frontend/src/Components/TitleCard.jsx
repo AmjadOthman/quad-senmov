@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-scroll";
 
-function TitleCard({ title, imgUrl }) {
+function TitleCard({ title, imgUrl /*buttonLink, smooth, duration*/ }) {
   return (
     <header
       className="w-screen h-[600px] bg-slate-700 flex items-center justify-center bg-image-home-page-css"
@@ -14,6 +15,7 @@ function TitleCard({ title, imgUrl }) {
         <div className="w-3/4 text-center ">
           <p className="text-5xl pt-10 font-bold text-white">{title}</p>
         </div>
+
         <div className="mt-6 flex justify-center items-center">
           <span className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer shadow-lg flex justify-center items-center">
             Learn more

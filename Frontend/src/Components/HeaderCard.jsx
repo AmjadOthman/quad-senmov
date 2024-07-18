@@ -1,6 +1,14 @@
 import React from "react";
+import { Link } from "react-scroll";
 
-export default function ({ title, desc, imgUrl }) {
+export default function ({
+  title,
+  desc,
+  imgUrl,
+  buttonLink,
+  smooth,
+  duration,
+}) {
   return (
     <header
       className="w-screen h-screen bg-slate-700 flex items-center justify-center bg-image-home-page-css"
@@ -19,6 +27,7 @@ export default function ({ title, desc, imgUrl }) {
             {desc}
           </p>
         </div>
+
         <div className="mt-6 flex justify-center items-center">
           <a className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer shadow-lg flex justify-center items-center">
             Learn more
